@@ -1,0 +1,50 @@
+.exchange__select {
+  padding: 5px;   
+  font-size: 0.6em;
+  max-width: 6em;
+}
+.exchange__sell {
+  background-color: darkslategray;
+  padding: 40px;
+}
+.exchange__error {
+  color: red;
+  font-size: 0.6em;
+  text-align: right;
+  margin-bottom: 5px;
+}
+.exchange__buy {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.exchange__btn__max {
+  padding: 5px;   
+  font-size: 0.6em;
+}
+.exchange__slider {
+  width: 100%;
+  margin: 0;
+  margin-top: 0.5em;
+}
+.exchange__rate {
+  position: absolute;
+  padding: 10px 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid pink;
+  border-radius: 20px;
+  font-size: 0.5em;
+  background-color: snow;
+  color: black;
+}
+.exchange__submit {
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 0.8em;
+  border-radius: 10px;
+  color: white;
+  background-color: crimson;
+  cursor: pointer;
+}
